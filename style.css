@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("clear.jpg");
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no ;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+.app-main
+{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(225, 228, 231, 0.952);
+    padding:30px;
+    text-align: center;
+}
+.app-main>*
+{
+    margin-bottom:20px ;
+}
+.input-box
+{
+    width:100%;
+    background-color: white;
+    border: auto;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    height:50px;
+    border-radius: 5px;
+    padding: 0 10px ;
+    text-align: center;
+}
+.weather-body
+{
+    color:black;
+    padding:20px;
+    line-height:2rem;
+    border-radius: 18px;
+    height:50vh;
+    background-color:beige;
+}
+.weather-status
+{
+    padding:20px;
+}
+.temp
+{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgb(0,0,0,0.3);
+}
+.max-min ,.weather
+{
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+/*function getdata()
+        {
+            var city=document.getElementById("input-box").value;
+            const url="https://api.openweathermap.org/data/2.5/weather?q="+
+            city+
+            "&appid=736c476042cdc4910a8f4bc66a291137&units=metric";
+            fetch(url).then((res)=> 
+            res.json()).then((data)=>{
+            console.log(data);
+        })
+    
+        }*/
